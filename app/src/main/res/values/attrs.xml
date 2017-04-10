@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgerssBarARC">
+        <!--百分比取值，按屏幕的分辨率计算-->
+        <!--按屏幕的分辨率较小值计算，例如720 X 1080 则用720来计算，进度条与控件边缘的距离-->
+        <attr name="padding" format="fraction"/>
+        <!--按屏幕的分辨率的Height值计算,如果该值超过进度条圆半径的60%，则采用进度条圆半径的60%-->
+        <attr name="progressTextSize" format="fraction"/>
+        <!--进度值，取值为0.0% ~ 100.0%，默认100.0%-->
+        <attr name="progress" format="fraction"/>
+        <!--进度条边框，字体，虚线圆的颜色-->
+        <attr name="progerssBarARCColor" format="color|reference"/>
+
+    </declare-styleable>
+</resources>

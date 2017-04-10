@@ -1,0 +1,89 @@
+[
+    {
+        "outputFile": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 276
+                },
+                "from": {
+                    "file": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 66,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 281,
+                    "endColumn": 45,
+                    "endOffset": 322
+                },
+                "from": {
+                    "file": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 45,
+                        "endOffset": 60
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 327,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 613
+                },
+                "from": {
+                    "file": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 618,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 773
+                },
+                "from": {
+                    "file": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]

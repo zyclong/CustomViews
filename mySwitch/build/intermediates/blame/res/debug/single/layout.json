@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\layout\\textview.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\layout\\textview.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\layout\\customtitle.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\layout\\customtitle.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\layout\\progress.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\layout\\progress.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\layout\\list_item.xml"
+    }
+]

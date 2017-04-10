@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">MySwitch</string>
+    <array name="strs">
+        <item >dddd7</item>
+        <item >dddd6</item>
+        <item >dddd5</item>
+        <item >dddd4</item>
+        <item >dddd3</item>
+        <item >dddd2</item>
+        <item >dddd1</item>
+    </array>
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CustomViewLibrary</string>
+    <string name="appname">CustomViewLibrary</string>
+
+    <string name="ASL_EditView_layout_widthPercent"         >86%w</string>
+    <string name="ASL_EditView_layout_heightPercent"        >10%h</string>
+    <string name="ASL_EditView_layout_maxWidthPercent"      >80%w</string>
+    <string name="ASL_EditView_layout_maxHeightPercent"     >10%h</string>
+    <string name="ASL_EditView_layout_minWidthPercent"      >80%w</string>
+    <string name="ASL_EditView_layout_minHeightPercent"     >10%h</string>
+
+    <string name="ASL_EditView_layout_marginStartPercent"   >7%</string>
+    <string name="ASL_EditView_layout_marginEndPercent"     >7%</string>
+    <string name="ASL_EditView_layout_marginPercent"        >7%w</string>
+    <string name="ASL_EditView_layout_marginLeftPercent"    >7%w</string>
+    <string name="ASL_EditView_layout_marginRightPercent"   >7%w</string>
+    <string name="ASL_EditView_layout_marginBottomPercent"  >2%h</string>
+    <string name="ASL_EditView_layout_marginTopPercent"     >2%h</string>
+
+    <string name="ASL_EditView_layout_textSizePercent"      >5%h</string>
+
+    <string name="ASL_EditView_layout_paddingPercent"       >2.5%w</string>
+    <string name="ASL_EditView_layout_paddingTopPercent"    >2.5%h</string>
+    <string name="ASL_EditView_layout_paddingBottomPercent" >2.5%h</string>
+    <string name="ASL_EditView_layout_paddingLeftPercent"   >3%w</string>
+    <string name="ASL_EditView_layout_paddingRightPercent"  >3%w</string>
+</resources>

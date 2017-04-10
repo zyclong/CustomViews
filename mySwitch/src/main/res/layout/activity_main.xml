@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="20dp"
+        android:textOn="  "
+        android:textOff="  "
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track" />
+    
+    <!-- 用于对比使用的不设置任何属性的Switch -->
+    <Switch 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <AutoCompleteTextView
+    android:id="@+id/mAutoCompleteTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:completionHint=" place seclect one  "
+    android:completionThreshold="1"
+
+    android:dropDownHeight="100dp"
+
+    />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/mMultiAutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint=" place seclect one  "
+        android:completionThreshold="1"
+
+        android:dropDownHeight="100dp"
+
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/strs"
+        android:prompt="@string/app_name"
+        >
+
+    </Spinner>
+    <Gallery
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Gallery>
+
+    <AdapterViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></AdapterViewFlipper>
+    <ViewSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ViewSwitcher>
+
+
+</LinearLayout>

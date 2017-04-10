@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--action bar tabs 的样式-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按钮没有按下的状态 -->
+
+    <!-- 没有焦点的状态 -->
+    <!--<item android:state_focused="false" android:state_selected="false"-->
+        <!--android:state_pressed="false"-->
+        <!--android:drawable="@drawable/tab_unselected" />-->
+    <!--<item android:state_focused="false" android:state_selected="true"-->
+        <!--android:state_pressed="false"-->
+        <!--android:drawable="@drawable/tab_selected" />-->
+
+    <!--&lt;!&ndash; 有焦点的状态 (例如D-Pad控制或者鼠标经过) &ndash;&gt;-->
+    <!--<item android:state_focused="true" android:state_selected="false"-->
+        <!--android:state_pressed="false"-->
+        <!--android:drawable="@drawable/tab_unselected_focused" />-->
+    <!--<item android:state_focused="true" android:state_selected="true"-->
+        <!--android:state_pressed="false"-->
+        <!--android:drawable="@drawable/tab_selected_focused" />-->
+
+
+    <!--&lt;!&ndash;  按钮按下的状态D &ndash;&gt;-->
+
+    <!--&lt;!&ndash; 没有焦点的状态 &ndash;&gt;-->
+    <!--<item android:state_focused="false" android:state_selected="false"-->
+        <!--android:state_pressed="true"-->
+        <!--android:drawable="@drawable/tab_unselected_pressed" />-->
+    <!--<item android:state_focused="false" android:state_selected="true"-->
+        <!--android:state_pressed="true"-->
+        <!--android:drawable="@drawable/tab_selected_pressed" />-->
+
+    <!--&lt;!&ndash;有焦点的状态 (例如D-Pad控制或者鼠标经过)&ndash;&gt;-->
+    <!--<item android:state_focused="true" android:state_selected="false"-->
+        <!--android:state_pressed="true"-->
+        <!--android:drawable="@drawable/tab_unselected_pressed" />-->
+    <!--<item android:state_focused="true" android:state_selected="true"-->
+        <!--android:state_pressed="true"-->
+        <!--android:drawable="@drawable/tab_selected_pressed" />-->
+</selector>

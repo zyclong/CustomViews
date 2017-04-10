@@ -1,0 +1,4 @@
+include ':app', ':customviewlibrary'
+include ':mySwitch'
+include ':logCollector'
+include ':logCollectorExample'

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\drawable\\green_track.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\drawable\\green_track.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\drawable\\red_thumb.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\drawable\\red_thumb.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\drawable\\track.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\drawable\\track.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\drawable\\thumb.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\drawable\\green_thumb.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\drawable\\green_thumb.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_track.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\drawable\\gray_track.xml"
+    },
+    {
+        "merged": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_thumb.xml",
+        "source": "E:\\OpenSourceProject\\Github\\SwitchButton-master\\CustomView\\mySwitch\\src\\main\\res\\drawable\\gray_thumb.xml"
+    }
+]

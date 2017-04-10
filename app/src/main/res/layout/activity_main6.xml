@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_bg"
+    tools:context="com.zyclong.customview.Main6Activity">
+    <!--旋转圆-->
+    <ImageView
+        android:id="@+id/RadarScan_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon_rotation_circle"
+        />
+    <!--中心图标-->
+    <com.abellstarlite.wedgit.zyclong.RoundedImageView
+        android:id="@+id/RadarScan_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher"
+        />
+    <!--动态添加view-->
+    <com.abellstarlite.wedgit.zyclong.RadarScan
+        android:id="@+id/RadarScan_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        ></com.abellstarlite.wedgit.zyclong.RadarScan>
+
+    <!--<com.abellstarlite.wedgit.zyclong.RadarScan_1-->
+        <!--android:id="@+id/RadarScan_2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;</com.abellstarlite.wedgit.zyclong.RadarScan_1>-->
+
+    <!--<com.abellstarlite.wedgit.zyclong.RadarScan-->
+        <!--android:id="@+id/RadarScan"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent">-->
+
+    <!--</com.abellstarlite.wedgit.zyclong.RadarScan>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bisque"
+            android:text=" Next "
+            android:layout_marginRight="50dp"
+            android:onClick="next"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bisque"
+            android:text=" Last "
+            android:onClick="last"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bisque"
+            android:text=" add "
+            android:onClick="add"
+            />
+    </LinearLayout>
+
+</FrameLayout>

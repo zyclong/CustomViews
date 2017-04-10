@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">300dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ASL_EditStyle">
+        <item name="layout_widthPercent"         >@string/ASL_EditView_layout_widthPercent</item>
+        <item name="layout_heightPercent"        >@string/ASL_EditView_layout_heightPercent</item>
+
+        <item name="layout_marginLeftPercent"    >@string/ASL_EditView_layout_marginLeftPercent</item>
+        <item name="layout_marginRightPercent"   >@string/ASL_EditView_layout_marginRightPercent</item>
+        <item name="layout_marginBottomPercent"  >@string/ASL_EditView_layout_marginBottomPercent</item>
+        <item name="layout_marginTopPercent"     >@string/ASL_EditView_layout_marginTopPercent</item>
+
+        <item name="layout_textSizePercent"      >@string/ASL_EditView_layout_textSizePercent</item>
+
+        <item name="layout_paddingTopPercent"    >@string/ASL_EditView_layout_paddingTopPercent</item>
+        <item name="layout_paddingBottomPercent" >@string/ASL_EditView_layout_paddingBottomPercent</item>
+        <item name="layout_paddingLeftPercent"   >@string/ASL_EditView_layout_paddingLeftPercent</item>
+        <item name="layout_paddingRightPercent"  >@string/ASL_EditView_layout_paddingRightPercent</item>
+
+        <!--<item name="android:background">@drawable/edit_shape_normal</item>-->
+
+    </style>
+
+    <style name="ASL_ButtonStyle">
+        <item name="layout_widthPercent"         >@string/ASL_EditView_layout_widthPercent</item>
+        <item name="layout_heightPercent"        >@string/ASL_EditView_layout_heightPercent</item>
+
+        <item name="layout_marginLeftPercent"    >@string/ASL_EditView_layout_marginLeftPercent</item>
+        <item name="layout_marginRightPercent"   >@string/ASL_EditView_layout_marginRightPercent</item>
+        <item name="layout_marginBottomPercent"  >@string/ASL_EditView_layout_marginBottomPercent</item>
+        <item name="layout_marginTopPercent"     >@string/ASL_EditView_layout_marginTopPercent</item>
+
+        <item name="layout_textSizePercent"      >@string/ASL_EditView_layout_textSizePercent</item>
+
+        <item name="layout_paddingTopPercent"    >@string/ASL_EditView_layout_paddingTopPercent</item>
+        <item name="layout_paddingBottomPercent" >@string/ASL_EditView_layout_paddingBottomPercent</item>
+        <item name="layout_paddingLeftPercent"   >@string/ASL_EditView_layout_paddingLeftPercent</item>
+        <item name="layout_paddingRightPercent"  >@string/ASL_EditView_layout_paddingRightPercent</item>
+
+        <!--<item name="android:background">@drawable/button_shape_press</item>-->
+
+    </style>
+
+
+
+
+</resources>

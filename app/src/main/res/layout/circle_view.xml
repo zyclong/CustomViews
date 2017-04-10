@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#51CBFE"
+    android:layout_height="match_parent"
+    >
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Next "
+    android:onClick="next"
+    />
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_height="600dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <com.abellstarlite.wedgit.zyclong.DataDayTextView
+            android:id="@+id/dataDayTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:fillViewport="false"
+            android:clipToPadding="false"
+            android:background="@android:color/black"
+            >
+            <com.abellstarlite.wedgit.zyclong.DataDayView
+                android:id="@+id/dataDayView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </ScrollView>
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>
+
+    <com.zyclong.customviewlibrary.progressbar.LineProgressBar
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

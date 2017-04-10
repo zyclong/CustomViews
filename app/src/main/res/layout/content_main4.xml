@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.zyclong.customview.Main4Activity"
+    tools:showIn="@layout/activity_main4"
+    android:background="#51CBFE"
+    >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        >
+        <com.abellstarlite.wedgit.zyclong.LineChart
+            android:id="@+id/LineChart"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bisque"
+            android:text=" Next "
+            android:layout_marginRight="50dp"
+            android:onClick="next"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bisque"
+            android:text=" Last "
+            android:onClick="last"
+            />
+    </LinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

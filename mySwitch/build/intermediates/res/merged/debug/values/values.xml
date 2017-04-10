@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="strs">
+        <item>dddd7</item>
+        <item>dddd6</item>
+        <item>dddd5</item>
+        <item>dddd4</item>
+        <item>dddd3</item>
+        <item>dddd2</item>
+        <item>dddd1</item>
+    </array>
+    <string name="app_name">MySwitch</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
