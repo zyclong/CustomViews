@@ -151,6 +151,9 @@ public class GreenDaoUpdateUtils {
      * @return
      */
     private static Object getObjectFromCursor(Cursor c, int i) {
+        if(c.isNull(i)){
+            return null;
+        }
         int type = c.getType(i);
         switch (type) {
             case Cursor.FIELD_TYPE_NULL:
