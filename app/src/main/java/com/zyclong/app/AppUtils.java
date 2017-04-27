@@ -5,6 +5,8 @@ import android.content.pm.ApplicationInfo;
 
 /**
  * Created by zyclong on 2017/4/7.
+ * 先使用syncIsDebug
+ * 在获取isDebug
  */
 
 public class AppUtils {

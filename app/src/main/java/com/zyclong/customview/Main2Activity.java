@@ -1,6 +1,6 @@
 package com.zyclong.customview;
 
-import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -21,6 +21,18 @@ import android.widget.SeekBar;
 
 import com.abellstarlite.wedgit.zyclong.ProgerssBarARC;
 import com.abellstarlite.wedgit.zyclong.SeekBarWithNumber;
+import com.abellstarlite.wedgit.zyclong.bean.AppWifiInfo;
+import com.orhanobut.logger.Logger;
+import com.zyclong.app.App;
+
+import org.greenrobot.greendao.query.QueryBuilder;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -196,14 +208,80 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     public void next(View view) {
-        Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
+//        startActivity(intent);
+        String strSql="SELECT * FROM sqlite_master";
+        Cursor c=App.app.getDb().rawQuery(strSql,null);
+        c.moveToFirst();
+       Map<String,Object> rawMap=new LinkedHashMap();
+
+        if (c.moveToFirst()) {
+            Log.i("SqLite", c.getCount() + "-->cursor.getCount");
+            do {
+                for (int i = 0; i < c.getColumnCount(); i++) {
+                    rawMap.put(c.getColumnName(i), getObjectFromCursor(c, i));
+                }
+                String s = "";
+                for (String str : rawMap.keySet()) {
+                    if (rawMap.get(str) == null) {
+                        s += str + "-->" + "null" + "----";
+                    } else {
+                        s += str + "-->" + rawMap.get(str).toString() + "----";
+                    }
+                }
+                Logger.d(s);
+            } while (c.moveToNext());
+
+        }
+        QueryBuilder qb=QueryBuilder.internalCreate(App.app.getDaoSession().getAppWifiInfoDao());
+       List<AppWifiInfo> q= qb.list();
+        for(AppWifiInfo a:q){
+            Log.i("SqLite",a.toString());
+        }
+    }
+    private static Object getObjectFromCursor(Cursor c, int i) {
+        int type = c.getType(i);
+        switch (type) {
+            case Cursor.FIELD_TYPE_NULL:
+                return null;
+            case Cursor.FIELD_TYPE_BLOB:
+                return c.getBlob(i);
+            case Cursor.FIELD_TYPE_FLOAT:
+                return c.getFloat(i);
+            case Cursor.FIELD_TYPE_INTEGER:
+                return c.getInt(i);
+            case Cursor.FIELD_TYPE_STRING:
+                return c.getString(i);
+        }
+        return null;
     }
 
     public void last(View view) {
-        Intent intent = new Intent(Main2Activity.this, MainActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(Main2Activity.this, MainActivity.class);
+//        startActivity(intent);
+       App.app.getDaoSession().getAppWifiInfoDao().insert(getAppWifiInfoInstance("ssid","dpws"));
+    }
+    /**
+     * 创建AppWifiInfo
+     * @param wc
+     * @param psw
+     * @return
+     */
+    private static AppWifiInfo getAppWifiInfoInstance(String wc, String psw) {
+        AppWifiInfo appWifiInfo=new AppWifiInfo();
+        appWifiInfo.setId(null);
+        appWifiInfo.setLASTTIME(getCurrentTime());
+        appWifiInfo.setSSID(wc);
+        appWifiInfo.setPASSWORD(psw);
+        appWifiInfo.setKEYMGMT("wpa");
+        return appWifiInfo;
     }
 
-
+    public static String getCurrentTime(){
+        long currentTime = System.currentTimeMillis();
+        Date date = new Date(currentTime);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
+        String time = sdf.format(date);
+        return time;
+    }
 }

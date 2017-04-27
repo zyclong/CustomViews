@@ -2,6 +2,7 @@ import java.util.regex.Matcher
 import java.util.regex.Pattern
 
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
 
 android {
     compileSdkVersion 24
@@ -20,6 +21,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    greendao {
+        schemaVersion 3
+        targetGenDir 'src/main/java'
+        daoPackage 'com.anye.greendao.gen'
+    }
 }
 
 
@@ -36,6 +43,7 @@ dependencies {
     compile project(path: ':logCollector')
     compile project(path: ':logCollector')
     compile project(':logCollector')
+    compile 'org.greenrobot:greendao:3.1.0'
     compile 'com.tencent.bugly:crashreport:latest.release' //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.2.0
 }
 

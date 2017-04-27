@@ -159,7 +159,7 @@ public class RadarScan extends RelativeLayout implements View.OnClickListener {
 
             }
         };
-     //   setViewWidth("....");
+        setViewWidth("....");
 
     }
 

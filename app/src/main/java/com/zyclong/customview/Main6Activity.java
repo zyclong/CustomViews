@@ -16,8 +16,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.abellstarlite.wedgit.zyclong.RadarScan_2;
 import com.abellstarlite.wedgit.zyclong.RadarScan;
+import com.abellstarlite.wedgit.zyclong.RadarScan_2;
 import com.abellstarlite.wedgit.zyclong.service.NotificationService;
 import com.google.android.gms.common.api.GoogleApiClient;
 
@@ -217,6 +217,23 @@ public class Main6Activity extends AppCompatActivity {
         } catch (Exception e) {
             Log.e("Exception", "onCreate: ", e);
         }
+try{
+        String[] path= getAssets().list("pictures");
+
+        //getFromAssets(getAsset(),"myicons")
+//            fd.getFileDescriptor().
+//            File f=new File("file:///android_asset/pictures");
+//            String[] path=f.list();
+        Log.i(TAG, "next: "+path.length);
+        for(String s:path){
+            Log.i(TAG, "next:path "+s);
+        }
+
+    } catch (Exception e) {
+//        } catch (IOException e) {
+        e.printStackTrace();
+    }
+
     }
 
     public int dip2px(float dip) {
@@ -227,8 +244,31 @@ public class Main6Activity extends AppCompatActivity {
     }
 
     public void next(View view) {
-        Intent intent=new Intent(Main6Activity.this,Main7Activity.class);
-        startActivity(intent);
+     //   Intent intent=new Intent(Main6Activity.this,Main7Activity.class);
+     //   startActivity(intent);
+        try {
+//            String[] path= getAssets().list("/");
+//            next:path AndroidManifest.xml
+//            03-30 06:27:13.900 29245-29245/com.zyclong.customview I/Main6Activity: next:path META-INF
+//            03-30 06:27:13.900 29245-29245/com.zyclong.customview I/Main6Activity: next:path assets
+//            03-30 06:27:13.900 29245-29245/com.zyclong.customview I/Main6Activity: next:path res
+//            03-30 06:27:13.900 29245-29245/com.zyclong.customview I/Main6Activity: next:path resources.arsc
+           // AssetFileDescriptor fd = getAssets().openFd("pictures");
+            String[] path= getResources().getAssets().list("pictures");
+
+            //getFromAssets(getAsset(),"myicons")
+//            fd.getFileDescriptor().
+//            File f=new File("file:///android_asset/pictures");
+//            String[] path=f.list();
+            Log.i(TAG, "next: "+path.length);
+            for(String s:path){
+                Log.i(TAG, "next:path "+s);
+            }
+
+        } catch (Exception e) {
+//        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void last(View view) {
